@@ -1,6 +1,6 @@
 # GPS Tracker with SIM800L and NEO-6M (Arduino and Android)
 
-This project consists of both an Arduino sketch and an Android app that allows you to track GPS coordinates using an ESP32 board, SIM800L GSM module, NEO-6M GPS module, and an Android smartphone. The GPS coordinates are sent from the Arduino board to an MQTT broker for further processing or visualization and can be viewed on the Android app.
+This project consists of both an Arduino sketch and an Android app that allows you to track GPS coordinates using an ESP32 board, SIM800L GSM module, NEO-6M GPS module, and an Android smartphone. The GPS coordinates are sent from the ESP32 board to an MQTT broker for further processing or visualization and can be viewed on the Android app.
 
 ## Arduino (ESP32) Part
 
@@ -33,7 +33,7 @@ Before uploading the sketch, you may need to modify the following settings:
 
 ### Description
 
-The Android app provides a user-friendly interface to view the GPS coordinates received from the Arduino board through the MQTT broker. It also allows you to set up a virtual guard by defining a circular area with a specified radius.
+The Android app provides a user-friendly interface to view the GPS coordinates received from the ESP32 board through the MQTT broker. It also allows you to set up a virtual guard by defining a circular area with a specified radius.
 
 ### Prerequisites
 
@@ -43,7 +43,7 @@ To use the Android app, you need an Android smartphone or emulator with the foll
 
 ### Features
 
-- Display real-time GPS coordinates received from the Arduino board.
+- Display real-time GPS coordinates received from the ESP32 board.
 - View the last update timestamp of the GPS data.
 - Set up a virtual guard by defining a circular area with a specified radius.
 - Receive notifications on the Android device when the tracked location goes outside or returns inside the virtual guard area.
@@ -63,10 +63,6 @@ To use the Android app, you need an Android smartphone or emulator with the foll
 6. If the GPS location goes outside the virtual guard area, you will receive a notification on your Android device.
 
 7. Similarly, you will receive a notification when the tracked location returns inside the virtual guard area.
-
-## Contributing
-
-Contributions to this Arduino and Android GPS Tracker project are welcome! If you find any issues or have suggestions for improvements, feel free to submit bug reports, feature requests, or pull requests.
 
 ## License
 
