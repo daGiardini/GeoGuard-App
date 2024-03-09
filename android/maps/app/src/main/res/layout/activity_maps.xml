@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity"
+        tools:layout="@android:layout/activity_list_item" />
+
+    <LinearLayout
+        android:id="@+id/buttonsLayoutLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/bttFollowLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="track\nlocal" />
+
+        <Button
+            android:id="@+id/bttFollowRemote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="20dp"
+            android:text="track\nremote" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayoutRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/bttGuard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="set\nguard" />
+
+        <Button
+            android:id="@+id/bttService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="20dp"
+            android:text="start" />
+    </LinearLayout>
+
+</FrameLayout>

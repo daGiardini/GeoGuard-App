@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tracker</string>
+    <string name="LAUNCH_ACTIVITY">android.intent.action.MAPS</string>
+    <string name="ACTION_NEW_GUARD">com.example.tracker.NEW_GUARD</string>
+    <string name="ACTION_DELETE_GUARD">com.example.tracker.DELETE_GUARD</string>
+    <string name="ACTION_MQTT_MESSAGE_RECEIVED">com.example.tracker.MQTT_MESSAGE_RECEIVED</string>
+</resources>
