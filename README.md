@@ -74,7 +74,7 @@ To use the Android app, you need an Android smartphone or emulator with the foll
 
 <p align="center"> 
   <img width="350" height="263" src="images/tracker.jpg" hspace="10"> 
-  <img width="290" height="400" src="images/real_box.png" hspace="10"> 
+  <img width="350" height="263" src="images/real_box.png" hspace="10"> 
 </p>
 
 ## License
