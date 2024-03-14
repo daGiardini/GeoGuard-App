@@ -32,7 +32,7 @@ Before uploading the sketch, you may need to modify the following settings:
 ### Wiring Diagram
 
  <p align="center"> 
-  <img width="350" height="263" src="images/circuit.jpg" hspace="10"> 
+  <img width="350" height="263" src="images/circuit.png" hspace="10"> 
 </p>
 
 ## Android App Part
