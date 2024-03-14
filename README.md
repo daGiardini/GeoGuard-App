@@ -29,6 +29,12 @@ Before uploading the sketch, you may need to modify the following settings:
 
 - **Serial port settings**: If your ESP32 is connected to a different serial port than the default pins (16 and 17), update the `SIM800_RX` and `SIM800_TX` definitions accordingly.
 
+### Wiring Diagram
+
+ <p align="center"> 
+  <img width="350" height="263" src="images/circuit.jpg" hspace="10"> 
+</p>
+
 ## Android App Part
 
 ### Description
@@ -63,6 +69,13 @@ To use the Android app, you need an Android smartphone or emulator with the foll
 6. If the GPS location goes outside the virtual guard area, you will receive a notification on your Android device.
 
 7. Similarly, you will receive a notification when the tracked location returns inside the virtual guard area.
+
+## Embedded System
+
+<p align="center"> 
+  <img width="350" height="263" src="images/tracker.jpg" hspace="10"> 
+  <img width="290" height="400" src="images/real_box.png" hspace="10"> 
+</p>
 
 ## License
 
